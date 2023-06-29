@@ -2,8 +2,8 @@ SELECT SCHEMA_NAME() AS defaultschema;
 GO
 
 CREATE DATABASE enterprise 
-    ON (NAME = N'enterprise', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\enterprise.mdf', SIZE = 1024MB, FILEGROWTH = 256MB)
-LOG ON (NAME = N'enterprise_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\enterprise_log.ldf', SIZE = 512MB, FILEGROWTH = 125MB)
+    ON (NAME = N'enterprise', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\enterprise.mdf', SIZE = 1024MB, FILEGROWTH = 256MB)
+LOG ON (NAME = N'enterprise_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\enterprise_log.ldf', SIZE = 512MB, FILEGROWTH = 125MB)
 GO
 
 USE enterprise
